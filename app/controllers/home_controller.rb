@@ -4,4 +4,5 @@ class HomeController < ApplicationController
   @data=Cost.dashboard(current_user)
 
   end
+
 end
